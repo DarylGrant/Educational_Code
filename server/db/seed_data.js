@@ -4,15 +4,20 @@ db.dropDatabase();
 db.language.insertMany([
 {
     "title": "HTML",
-    "description": ,
-    "links": ,
-    "examples": ,
+    "description": "hi",
+    "links": "test",
+    "examples": "test"
 },
-
-
-
-
-
-
-
-])
+{
+    "title": "HTML",
+    "description": "hi",
+    "links": "test",
+    "examples": "test"
+},
+{
+    "title": "HTML",
+    "description": "hi",
+    "links": "test",
+    "examples": "test"
+}
+]);
