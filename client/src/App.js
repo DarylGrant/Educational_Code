@@ -1,8 +1,9 @@
 import "./App.css";
-import AppNavbar from "./navbar";
+import AppNavbar from "./components/navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ErrorPage from "./ErrorPage";
-import Home from "./Home";
+import ErrorPage from "./components/ErrorPage";
+import Home from "./components/Home";
+import EducationalContainer from "./containers/EducationalContainer";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         <Routes>
           <Route path="/*" element={<ErrorPage />} />
           <Route path="/" element={<Home />} />
-          <Route path="/*" element={<ErrorPage />} />
+          <Route path="/html/info" element={<EducationalContainer />} />
+          <Route path="/css/info" element={<EducationalContainer />} />
+          <Route path="/js/info" element={<EducationalContainer />} />
         </Routes>
       </Router>
     </>
