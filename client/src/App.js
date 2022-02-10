@@ -8,16 +8,45 @@ function App() {
     <>
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="/">Web Development Basics</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
+              <Nav.Link href="/">Home</Nav.Link>
+              <NavDropdown title="HTML" id="html-nav-dropdown">
+                <NavDropdown.Item href="/html/info">
+                  Description
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/html/test">
+                  Test Your HTML Knowledge
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  Something
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">
+                  Separated link
+                </NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="CSS" id="css-nav-dropdown">
+                <NavDropdown.Item href="/css/info">
+                  Description
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/css/test">
+                  Test Your CSS Knowledge
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  Something
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">
+                  Separated link
+                </NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="JS" id="js-nav-dropdown">
+                <NavDropdown.Item href="/js/info">Description</NavDropdown.Item>
+                <NavDropdown.Item href="/js/test">
+                  Test Your JS Knowledge
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
                   Something
