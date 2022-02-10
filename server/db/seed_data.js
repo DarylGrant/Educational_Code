@@ -29,7 +29,7 @@ db.language.insertMany([
     "links": 
         "https://developer.mozilla.org/en-US/docs/Web/CSS",
     "examples" : "CSS is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.",
-    "picture": "https://uwaterloo.ca/arts-computing-newsletter/sites/ca.arts-computing-newsletter/files/styles/wide-body-750px-wide/public/uploads/images/html-vs-css-difference-funny-min.png?itok=iASv-Ysz", 
+    "image": "https://uwaterloo.ca/arts-computing-newsletter/sites/ca.arts-computing-newsletter/files/styles/wide-body-750px-wide/public/uploads/images/html-vs-css-difference-funny-min.png?itok=iASv-Ysz", 
     "video": {
         "youtube_1": "https://youtu.be/XPv4EeB0PJ8",
         "youtube_2": "https://youtu.be/1Rs2ND1ryYc"
