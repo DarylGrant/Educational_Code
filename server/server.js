@@ -7,12 +7,12 @@ const cors = require("cors");
 app.use(cors());
 app.use(express.json());
 
-MongoClient.connect("mongodb://localhost:27017", { useUnifiedTopology: true })
+MongoClient.connect("mongodb://127.0.0.1:27017", { useUnifiedTopology: true })
   .then((client) => {
     const db = client.db("code_info");
     const codeLanguage = db.collection("language");
     const languageRouter = createRouter(codeLanguage);
-    app.use("/api/language", languageRouter);
+    app.use("/api/topics", languageRouter);
   })
   .catch(console.error);
 
