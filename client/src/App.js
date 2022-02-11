@@ -13,9 +13,9 @@ function App() {
         <Routes>
           <Route path="/*" element={<ErrorPage />} />
           <Route path="/" element={<Home />} />
-          <Route path="/html/info" element={<EducationalContainer />} />
-          <Route path="/css/info" element={<EducationalContainer />} />
-          <Route path="/js/info" element={<EducationalContainer />} />
+          <Route path="/html/info" element={<EducationalContainer topicID = "620639739a18494955e2c5f8" />} />
+          <Route path="/css/info" element={<EducationalContainer topicID = "620639739a18494955e2c5f9" />} />
+          <Route path="/js/info" element={<EducationalContainer topicID = "620639739a18494955e2c5fa" />} />
         </Routes>
       </Router>
     </>

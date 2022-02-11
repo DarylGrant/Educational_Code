@@ -1,23 +1,29 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import EducationalDescription from '../components/EducationalDescription';
 
-const EducationalContainer = () => {
+const EducationalContainer = ({ topicID }) => {
 
-    const [topics, setTopics] = useState([]);
+    const [topic, setTopic] = useState([]);
 
     useEffect(() => {
-        fetchTopics()
+        fetchTopic()
     }, []);
 
-    const fetchTopics = () => {
+    const fetchTopic = () => {
         fetch('http://localhost:5000/api/topics')
-          .then(response => response.json())
-          .then(topics => setTopics(topics));
+            .then(response => response.json())
+            .then(topics => {
+                const foundTopic = topics.find((t) => {
+                    return t._id === topicID
+                })
+
+                setTopic(foundTopic)
+            });
     }
 
     return (
         <EducationalDescription
-        topics={topics}
+            topic={topic}
         />
     )
 }
