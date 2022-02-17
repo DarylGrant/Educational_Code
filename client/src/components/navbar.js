@@ -11,8 +11,8 @@ const AppNavbar = () => {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="HTML" id="html-nav-dropdown">
-              <NavDropdown.Item href="/html/info">Description</NavDropdown.Item>
-              <NavDropdown.Item href="/html/test">
+              <NavDropdown.Item href="/info/html">Description</NavDropdown.Item>
+              <NavDropdown.Item href="/test/html">
                 Test Your HTML Knowledge
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
@@ -22,8 +22,8 @@ const AppNavbar = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="CSS" id="css-nav-dropdown">
-              <NavDropdown.Item href="/css/info">Description</NavDropdown.Item>
-              <NavDropdown.Item href="/css/test">
+              <NavDropdown.Item href="/info/css">Description</NavDropdown.Item>
+              <NavDropdown.Item href="/test/css">
                 Test Your CSS Knowledge
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
@@ -33,8 +33,8 @@ const AppNavbar = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Javascript" id="js-nav-dropdown">
-              <NavDropdown.Item href="/js/info">Description</NavDropdown.Item>
-              <NavDropdown.Item href="/js/test">
+              <NavDropdown.Item href="/info/js">Description</NavDropdown.Item>
+              <NavDropdown.Item href="/test/js">
                 Test Your Javascript Knowledge
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>

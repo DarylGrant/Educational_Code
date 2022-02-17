@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router';
 import EducationalDescription from '../components/EducationalDescription';
+import ErrorPage from "../components/ErrorPage";
 
 const EducationalContainer = ({ topicID }) => {
 
     const [topic, setTopic] = useState([]);
+    const {title} = useParams();
 
     useEffect(() => {
         fetchTopic()
@@ -14,11 +17,15 @@ const EducationalContainer = ({ topicID }) => {
             .then(response => response.json())
             .then(topics => {
                 const foundTopic = topics.find((t) => {
-                    return t._id === topicID
+                    return t.title.toLowerCase() === title
                 })
 
                 setTopic(foundTopic)
             });
+    }
+
+    if (!topic) {
+        return <ErrorPage/>
     }
 
     return (
