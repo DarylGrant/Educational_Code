@@ -1,15 +1,18 @@
-import React from 'react';
+import React from "react";
 
-
-const VideoList = ({videos}) => {
-
-    const videoItems = videos.map((video) => {
-        return <li key={video.title}><a href={video.url}>{video.title}</a></li>
-    })
+const VideoList = ({ videos, handleChange }) => {
+  const videoSelectOption = videos.map((video) => {
+    return <option key={video.url}>{video.title}</option>;
+  });
 
   return (
-      <ul>{videoItems}</ul>
+    <>
+      <select onChange={handleChange}>
+        <option>Select Video</option>
+        {videoSelectOption}
+      </select>
+    </>
   );
-}
+};
 
 export default VideoList;

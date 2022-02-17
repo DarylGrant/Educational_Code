@@ -1,7 +1,7 @@
 import React from "react";
 import LinkList from "./LinkList";
 import ImageList from "./ImageList";
-import VideoList from "./VideoList";
+import VideoContainer from "../containers/VideoContainer";
 
 const EducationalDescription = ({ topic }) => {
   return (
@@ -13,7 +13,7 @@ const EducationalDescription = ({ topic }) => {
       <h4>Examples</h4>
       <p>{topic.examples}</p>
       {topic.image && <ImageList images={topic.image} />}
-      {topic.video && <VideoList videos={topic.video} />}
+      {topic.video && <VideoContainer videos={topic.video} />}
     </>
   );
 };
