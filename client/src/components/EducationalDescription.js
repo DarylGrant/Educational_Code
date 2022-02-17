@@ -1,5 +1,6 @@
 import React from "react";
 import LinkList from "./LinkList";
+import ImageList from "./ImageList";
 
 const EducationalDescription = ({ topic }) => {
 
@@ -14,6 +15,7 @@ const EducationalDescription = ({ topic }) => {
           {topic.links && <LinkList links={topic.links} />}
           <h4>Examples</h4>
           <p>{topic.examples}</p>
+          {topic.image && <ImageList images={topic.image}/>}
         </>
     )
 }
