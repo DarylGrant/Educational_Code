@@ -19,8 +19,7 @@ db.language.insertMany([
            "title": "codecademy",
            "url": "https://www.codecademy.com/learn/learn-html"
         }
-    ]
-    ,
+    ],
     "examples": "HTML uses 'markup' to annotate text, images, and other content for display in a Web browser. HTML markup includes special 'elements' such as <head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, <img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output>, <progress>, <video>, <ul>, <ol>, <li> and many others.",
     "video": [
        {
@@ -39,9 +38,8 @@ db.language.insertMany([
             "url": "https://www.howtogeek.com/wp-content/uploads/2021/09/html-text-computer.png?trim=1,1&bg-color=000&pad=1,1"
         },
     ],
-
-
-    "title": "CSS",
+},
+{   "title": "CSS",
     "name": 'Cascading Style Sheets',
     "description": "CSS is used for defining the styles for web pages. It describes the look and formatting of a document which is written in a markup language. It provides an additional feature to HTML. It is generally used with HTML to change the style of web pages and user interfaces.",
     "links": [ 
@@ -100,5 +98,4 @@ db.language.insertMany([
         "url": "https://dvg5hr78c8hf1.cloudfront.net/2016/06/17/13/45/01/cc2fac88-2f81-4cc5-9ec9-334042781fd0/1*OsjnQFK1i6CkjXQmTErAtw.jpeg"
     }
     ]
-
 }]);
