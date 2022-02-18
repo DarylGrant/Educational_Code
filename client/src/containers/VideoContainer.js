@@ -5,20 +5,20 @@ import Video from "../components/Video";
 const VideoContainer = ({ videos }) => {
   const [selectedVideo, setSelectedVideo] = useState({});
 
-  useEffect(() => {});
+  console.log(videos);
+
+  useEffect(() => {}, []);
 
   const handleChange = (event) => {
-    const selectedVideo = videos.find((video) => {
-      if (video.name === event.target.value) {
-        return video;
-      }
-      setSelectedVideo(selectedVideo);
-    });
+    const selectedVideo = videos.find(
+      (video) => video.title === event.target.value
+    );
+    setSelectedVideo(selectedVideo);
   };
 
   return (
     <>
-      <Video selectedVideo={selectedVideo} />
+      {videos && <Video selectedVideo={selectedVideo} />}
       <VideoList videos={videos} handleChange={handleChange} />
     </>
   );
