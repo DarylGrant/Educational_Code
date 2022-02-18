@@ -1,0 +1,43 @@
+#description-container {
+  display: grid;
+  grid-template-areas:
+    "header header header "
+    "main main aside"
+    "section section aside"
+    "footer footer footer";
+}
+
+#heading {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: header;
+  background-color: red;
+}
+
+#content {
+  grid-area: main;
+  background-color: #abd699;
+}
+
+#links {
+  grid-area: aside;
+}
+
+#media {
+  grid-area: section;
+  display: flex;
+}
+
+#footing {
+  grid-area: footer;
+  background-color: black;
+  color: white;
+}
+
+img {
+  width: 20rem;
+}
+
+.img-list {
+  list-style: none;
+}
