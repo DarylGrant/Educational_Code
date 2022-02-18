@@ -1,5 +1,5 @@
 import "./App.css";
-import AppNavbar from "./components/navbar";
+import AppNavbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ErrorPage from "./components/ErrorPage";
 import Home from "./components/Home";

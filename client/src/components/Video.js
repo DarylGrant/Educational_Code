@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 const Video = ({ selectedVideo }) => {
   return (
     <div>
-      <h1>Videos</h1>
+      <h1>Enhance Your Learning</h1>
       <h2 style={{ color: "blue" }}>{selectedVideo.title} </h2>
       <div id="video-container">
         <ReactPlayer
