@@ -10,12 +10,12 @@ const VideoList = ({ videos, handleChange }) => {
   });
 
   return (
-    <>
+    <div>
       <select onChange={handleChange}>
         <option>Select Video</option>
         {videoSelectOption}
       </select>
-    </>
+    </div>
   );
 };
 

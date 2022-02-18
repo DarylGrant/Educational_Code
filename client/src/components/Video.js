@@ -2,20 +2,23 @@ import ReactPlayer from "react-player";
 
 const Video = ({ selectedVideo }) => {
   return (
-    <>
+    <div>
       <h1>Videos</h1>
-      <h2 style={{ color: "white" }}>{selectedVideo.title} </h2>
-      <ReactPlayer
-        url={
-          "https://www.youtube.com/embed/" +
-          selectedVideo.youtube_id +
-          "?autoplay=1"
-        }
-        playing={true}
-        muted={true}
-        controls={true}
-      />
-    </>
+      <h2 style={{ color: "blue" }}>{selectedVideo.title} </h2>
+      <div id="video-container">
+        <ReactPlayer
+          url={
+            "https://www.youtube.com/embed/" +
+            selectedVideo.youtube_id +
+            "?autoplay=1"
+          }
+          className="react-player"
+          playing={true}
+          muted={true}
+          controls={true}
+        />
+      </div>
+    </div>
   );
 };
 
