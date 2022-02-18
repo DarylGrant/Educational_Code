@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
+const ImageList = ({ images }) => {
+  const imageItems = images.map((image) => {
+    return (
+      <li key={image.title}>
+        <img src={image.url} />
+      </li>
+    );
+  });
 
-const ImageList = ({images}) => {
-
-    const imageItems = images.map((image) => {
-        return <li key={image.title}><img src={image.url}  /></li>
-    })
-
-  return (
-      <ul>{imageItems}</ul>
-  );
-}
+  return <ul className="img-list">{imageItems}</ul>;
+};
 
 export default ImageList;
