@@ -9,7 +9,11 @@ const ImageList = ({ images }) => {
     );
   });
 
-  return <ul className="img-list">{imageItems}</ul>;
+  return (
+    <div>
+      <ul className="img-list">{imageItems}</ul>
+    </div>
+  );
 };
 
 export default ImageList;
