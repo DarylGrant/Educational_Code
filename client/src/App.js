@@ -15,7 +15,7 @@ function App() {
           <Route path="/*" element={<ErrorPage />} />
           <Route path="/" element={<Home />} />
           <Route path="/info/:title" element={<EducationalContainer />} />
-          <Route path="/test/html" element={<QuizContainer />} />
+          <Route path="/test/:title" element={<QuizContainer />} />
         </Routes>
       </Router>
     </>
