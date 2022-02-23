@@ -9,8 +9,8 @@ body {
       font-weight: 300;
       font-size: 20px;
       line-height: 1.45;
-      color: #eee;
-      color: rgba(255,255,255,.85);
+      /* color: #eee;
+      color: rgba(255,255,255,.85); */
   }
   #container { 
       padding-top: 50px;
@@ -21,8 +21,9 @@ body {
       margin: 0 auto;
   }
   h1 {
-      font-size: 4.8em;
+      font-size: 4em;
       font-weight: 100;
+      /* font-weight: bold; */
       text-transform: uppercase;
       margin: 0;
   }
@@ -55,8 +56,8 @@ body {
   }
   
   
-  /* html { font-size: 62.5%; }
-  body { font-size: 1em;} */
+  html { font-size: 62.5%; }
+  body { font-size: 1em;}
   
   /* PYRAMID CODE */
   /* .stage {
