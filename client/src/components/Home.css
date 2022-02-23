@@ -28,7 +28,9 @@ body {
       margin: 0;
   }
   h3 {
-      font-size: 2.4em;
+
+      font-size: 1em;
+
       font-weight: 300;
       line-height: 1.5;
   }
@@ -59,8 +61,10 @@ body {
   html { font-size: 62.5%; }
   body { font-size: 1em;}
   
-  /* PYRAMID CODE */
-  /* .stage {
+
+  /* PYRAMID CODE
+  .stage {
+
     -webkit-transform:scale(1.85);
     transform:scale(0.85);
     float:right;
@@ -73,8 +77,10 @@ body {
     -webkit-perspective-origin:50% 50%;
     perspective:1200px;
     perspective-origin:50% 50%;
-  } */
-  /* .pyramid3d {
+
+  }
+  .pyramid3d {
+
     position:relative;
     width:150px;
     height:150px;
@@ -97,7 +103,9 @@ body {
     position: absolute;
     height: 0; width: 0;
     border-style: solid;
+
     border-width: 176px 75px 0 75px;
+
   }
   .side1 { -webkit-transform: translatex(0) rotatey(115.2deg) rotatez(90deg); transform: translatex(0) rotatey(115.2deg) rotatez(90deg); }
   .side2 { -webkit-transform: translatex(150px) rotatez(90deg) rotatex(64.8deg); transform: translatex(150px) rotatez(90deg) rotatex(64.8deg); }
@@ -106,7 +114,9 @@ body {
   .side1:before{ border-color: rgba(115, 115, 0, 0.3) transparent transparent transparent; }
   .side2:before{ border-color: rgba(20, 90, 225, 0.3) transparent transparent transparent; }
   .side3:before{ border-color: rgba(255,   0, 0, 0.3) transparent transparent transparent; } 
-  .side4:before{ border-color: rgba(0, 255, 255, 0.3) transparent transparent transparent; } */
+
+  .side4:before{ border-color: rgba(0, 255, 255, 0.3) transparent transparent transparent; }  */
+
   
   
   @-webkit-keyframes turnPyramid { 100% { -webkit-transform: rotateX(75deg) rotate(425deg); } }
