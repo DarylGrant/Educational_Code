@@ -13,40 +13,40 @@ const AppNavbar = () => {
             <NavDropdown title="HTML" id="html-nav-dropdown">
               <NavDropdown.Item href="/info/html">Description</NavDropdown.Item>
               <NavDropdown.Item href="/test/htmlbasics">
-                HTML Basics Quiz
+                Basics Quiz
               </NavDropdown.Item>
               <NavDropdown.Item href="/test/htmlintermediate">
-                HTML Intermediate Quiz
+                Intermediate Quiz
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Ask a HTML Question
+                Ask a Question
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="CSS" id="css-nav-dropdown">
               <NavDropdown.Item href="/info/css">Description</NavDropdown.Item>
               <NavDropdown.Item href="/test/cssbasics">
-                CSS Basics Quiz
+                Basics Quiz
               </NavDropdown.Item>
               <NavDropdown.Item href="/test/cssintermediate">
-                CSS Intermediate Quiz
+                Intermediate Quiz
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Ask a CSS Question
+                Ask a Question
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Javascript" id="js-nav-dropdown">
               <NavDropdown.Item href="/info/js">Description</NavDropdown.Item>
               <NavDropdown.Item href="/test/jsbasics">
-                Javascript Basics Quiz
+                Basics Quiz
               </NavDropdown.Item>
               <NavDropdown.Item href="/test/jsintermediate">
-                Javascript Intermediate Quiz
+                Intermediate Quiz
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Ask a JS Question
+                Ask a Question
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

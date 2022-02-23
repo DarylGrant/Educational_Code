@@ -1,33 +1,34 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
-import QuizDisplay from "./QuizDisplay";
-import ErrorPage from "../components/ErrorPage";
+import QuizDisplay from "../components/QuizDisplay";
+import ErrorPage from "../components/ErrorPage.js";
+import "survey-react/survey.css";
 
 const QuizContainer = () => {
-  const [topic, setTopic] = useState([]);
+  const [quiz, setQuiz] = useState([]);
   const { title } = useParams();
 
   useEffect(() => {
-    fetchTopic();
+    fetchQuiz();
   }, []);
 
-  const fetchTopic = () => {
+  const fetchQuiz = () => {
     fetch("http://localhost:5000/api/quiz")
       .then((response) => response.json())
-      .then((topics) => {
-        const foundTopic = topics.find((t) => {
-          return t.quizName.toLowerCase() === title;
+      .then((quizes) => {
+        const quiz = quizes.find((qu) => {
+          return qu.quizName.toLowerCase() === title;
         });
 
-        setTopic(foundTopic);
+        setQuiz(quiz);
       });
   };
 
-  if (!topic) {
+  if (!quiz) {
     return <ErrorPage />;
   }
 
-  return <QuizDisplay topic={topic} />;
+  return <QuizDisplay quiz={quiz} />;
 };
 
 export default QuizContainer;

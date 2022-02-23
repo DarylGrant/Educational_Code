@@ -2,10 +2,10 @@ import React from "react";
 import * as Survey from "survey-react";
 import "survey-react/survey.css";
 
-const QuizDisplay = ({ topic }) => {
+const QuizDisplay = ({ quiz }) => {
   Survey.StylesManager.applyTheme("darkblue");
-  console.log(topic);
-  const surveyJSON = topic;
+
+  const surveyJSON = quiz;
 
   return (
     <>
