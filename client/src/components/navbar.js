@@ -12,9 +12,7 @@ const AppNavbar = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="HTML" id="html-nav-dropdown">
               <NavDropdown.Item href="/info/html">Description</NavDropdown.Item>
-              <NavDropdown.Item href="/test/html">
-                Test Your HTML Knowledge
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/test/html">HTML Quiz</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
@@ -23,9 +21,7 @@ const AppNavbar = () => {
             </NavDropdown>
             <NavDropdown title="CSS" id="css-nav-dropdown">
               <NavDropdown.Item href="/info/css">Description</NavDropdown.Item>
-              <NavDropdown.Item href="/test/css">
-                Test Your CSS Knowledge
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/test/css">CSS Quiz</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
@@ -35,7 +31,7 @@ const AppNavbar = () => {
             <NavDropdown title="Javascript" id="js-nav-dropdown">
               <NavDropdown.Item href="/info/js">Description</NavDropdown.Item>
               <NavDropdown.Item href="/test/js">
-                Test Your Javascript Knowledge
+                Javascript Quiz
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
