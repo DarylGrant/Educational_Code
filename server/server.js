@@ -16,6 +16,15 @@ MongoClient.connect("mongodb://127.0.0.1:27017", { useUnifiedTopology: true })
   })
   .catch(console.error);
 
+MongoClient.connect("mongodb://127.0.0.1:27017", { useUnifiedTopology: true })
+  .then((client) => {
+    const db = client.db("quiz_info");
+    const codeQuiz = db.collection("questions");
+    const quizRouter = createRouter(codeQuiz);
+    app.use("/api/quiz", quizRouter);
+  })
+  .catch(console.error);
+
 app.listen(5000, function () {
   console.log(`App running on port ${this.address().port}`);
 });

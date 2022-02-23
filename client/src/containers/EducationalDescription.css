@@ -56,15 +56,22 @@
   color: white;
 }
 
+/* img {
+  width: 50vw;
+  padding: 0.2em;
+} */
 img {
-  width: 90vw;
-  padding: 0.5em;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  padding: 0.2em;
 }
 
 .img-list {
   list-style: none;
-  padding: 0.5;
+  padding: 0.2;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  margin-right: 20px;
 }

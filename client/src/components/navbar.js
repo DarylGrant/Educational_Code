@@ -12,31 +12,41 @@ const AppNavbar = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="HTML" id="html-nav-dropdown">
               <NavDropdown.Item href="/info/html">Description</NavDropdown.Item>
-              <NavDropdown.Item href="/test/html">HTML Quiz</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="/test/htmlbasics">
+                HTML Basics Quiz
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/test/htmlintermediate">
+                HTML Intermediate Quiz
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Ask a HTML Question
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="CSS" id="css-nav-dropdown">
               <NavDropdown.Item href="/info/css">Description</NavDropdown.Item>
-              <NavDropdown.Item href="/test/css">CSS Quiz</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="/test/cssbasics">
+                CSS Basics Quiz
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/test/cssintermediate">
+                CSS Intermediate Quiz
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Ask a CSS Question
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Javascript" id="js-nav-dropdown">
               <NavDropdown.Item href="/info/js">Description</NavDropdown.Item>
-              <NavDropdown.Item href="/test/js">
-                Javascript Quiz
+              <NavDropdown.Item href="/test/jsbasics">
+                Javascript Basics Quiz
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="/test/jsintermediate">
+                Javascript Intermediate Quiz
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Ask a JS Question
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
