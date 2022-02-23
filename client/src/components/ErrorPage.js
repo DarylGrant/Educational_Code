@@ -5,13 +5,15 @@ const ErrorPage = () => {
     <>
       <div class="number">404</div>
       <div class="text">
-      <h2>Ooops...</h2>
-      <p>Page Not Found</p>
+        <h2>Ooops...</h2>
+        <p>Page Not Found</p>
       </div>
-      <a class="me" href="https://codepen.io/uzcho_/pens/popular/?grid_type=list" target="_blank"></a>
+      <a
+        class="me"
+        href="https://codepen.io/uzcho_/pens/popular/?grid_type=list"
+        target="_blank"
+      ></a>
     </>
-
-
   );
 };
 
