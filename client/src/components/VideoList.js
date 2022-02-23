@@ -10,7 +10,7 @@ const VideoList = ({ videos, handleChange }) => {
   });
 
   return (
-    <div>
+    <div id="video-select">
       <select onChange={handleChange}>
         <option selected={true} disabled={true}>
           Select Video
