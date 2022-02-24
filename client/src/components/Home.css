@@ -29,6 +29,7 @@
       color: rgba(255,255,255,.85); */
 
   padding-top: 50px;
+  
 
 }
 #error-content {
@@ -98,6 +99,7 @@ PYRAMID CODE .stage {
   -webkit-perspective-origin: 50% 50%;
   perspective: 1200px;
   perspective-origin: 50% 50%;
+  
 }
 .pyramid3d {
   position: relative;
@@ -110,6 +112,9 @@ PYRAMID CODE .stage {
   transform: rotateX(75deg) rotate(65deg);
   -webkit-animation: turnPyramid 10s linear infinite;
   animation: turnPyramid 10s linear infinite;
+  margin-left: 340px;
+  margin-top: 50px;
+  
 }
 .triangle {
   -webkit-transform-style: preserve-3d;
