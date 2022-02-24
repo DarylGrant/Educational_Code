@@ -27,9 +27,34 @@ db.language.insertMany([
     "examples": "HTML uses 'markup' to annotate text, images, and other content for display in a Web browser. HTML markup includes special 'elements' such as <head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, <img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output>, <progress>, <video>, <ul>, <ol>, <li> and many others.",
     "video": [
        {
-           "title": "youtube",
-            "url": "https://www.youtube.com/watch?v=9p-YLfGWC68",
-            "youtube_id": "9p-YLfGWC68"
+           "title": "HTML Lesson 1",
+            "url": "https://youtu.be/i0tl5vWPoWc",
+            "youtube_id": "i0tl5vWPoWc"
+       },
+       {
+           "title": "HTML Lesson 2",
+            "url": "https://youtu.be/KoZfJENeVHc",
+            "youtube_id": "KoZfJENeVHc"
+       },
+       {
+           "title": "HTML Lesson 3",
+            "url": "https://youtu.be/40hWMNYAnhg",
+            "youtube_id": "40hWMNYAnhg"
+       },
+       {
+           "title": "HTML Lesson 4",
+            "url": "https://youtu.be/YOe7zh-Zx2Y",
+            "youtube_id": "YOe7zh-Zx2Y"
+       },
+       {
+           "title": "HTML Lesson 5",
+            "url": "https://youtu.be/JFEGee0Oclw",
+            "youtube_id": "JFEGee0Oclw"
+       },
+       {
+           "title": "HTML Lesson 6",
+            "url": "https://youtu.be/YPKTasOGnWk",
+            "youtube_id": "YPKTasOGnWk"
        }
     ],
     "image": [
@@ -72,12 +97,32 @@ db.language.insertMany([
     ],
     "video": [
         {
-            "title": "youtube_1",
+            "title": "CSS Lesson 1",
             "url": "https://youtu.be/XPv4EeB0PJ8",
             "youtube_id": "XPv4EeB0PJ8"
         },
         {
-            "title": "youtube_2",
+            "title": "CSS Lesson 2",
+            "url": "https://youtu.be/1Rs2ND1ryYc",
+            "youtube_id": "1Rs2ND1ryYc"
+        },
+        {
+            "title": "CSS Lesson 3",
+            "url": "https://youtu.be/XPv4EeB0PJ8",
+            "youtube_id": "XPv4EeB0PJ8"
+        },
+        {
+            "title": "CSS Lesson 4",
+            "url": "https://youtu.be/1Rs2ND1ryYc",
+            "youtube_id": "1Rs2ND1ryYc"
+        },
+        {
+            "title": "CSS Lesson 5",
+            "url": "https://youtu.be/XPv4EeB0PJ8",
+            "youtube_id": "XPv4EeB0PJ8"
+        },
+        {
+            "title": "CSS Lesson 6",
             "url": "https://youtu.be/1Rs2ND1ryYc",
             "youtube_id": "1Rs2ND1ryYc"
         }
@@ -108,7 +153,42 @@ db.language.insertMany([
     "examples": "JavaScript works with many standard objects, expressions, operators and functions to create web pages and make them interactive. ",
     "video": [
         {
-            "title": "youtube",
+            "title": "JS Lesson 1",
+            "url": "https://www.youtube.com/watch?v=vEROU2XtPR8",
+            "youtube_id": "vEROU2XtPR8"
+        },
+        {
+            "title": "JS Lesson 1",
+            "url": "https://www.youtube.com/watch?v=vEROU2XtPR8",
+            "youtube_id": "vEROU2XtPR8"
+        },
+        {
+            "title": "JS Lesson 2",
+            "url": "https://www.youtube.com/watch?v=vEROU2XtPR8",
+            "youtube_id": "vEROU2XtPR8"
+        },
+        {
+            "title": "JS Lesson 3",
+            "url": "https://www.youtube.com/watch?v=vEROU2XtPR8",
+            "youtube_id": "vEROU2XtPR8"
+        },
+        {
+            "title": "JS Lesson 4",
+            "url": "https://www.youtube.com/watch?v=vEROU2XtPR8",
+            "youtube_id": "vEROU2XtPR8"
+        },
+        {
+            "title": "JS Lesson 5",
+            "url": "https://www.youtube.com/watch?v=vEROU2XtPR8",
+            "youtube_id": "vEROU2XtPR8"
+        },
+        {
+            "title": "JS Lesson 6",
+            "url": "https://www.youtube.com/watch?v=vEROU2XtPR8",
+            "youtube_id": "vEROU2XtPR8"
+        },
+        {
+            "title": "JS Lesson 7",
             "url": "https://www.youtube.com/watch?v=vEROU2XtPR8",
             "youtube_id": "vEROU2XtPR8"
         }
