@@ -7,28 +7,36 @@
     "main main aside"
     "section section section"
     "footer footer footer";
+
+
+  background-color:#40E0D0 ;
+  background-image: linear-gradient(#40E0D0 ,  #8A2BE2);
 }
 
 #heading {
   grid-area: header;
-  background-color: red;
-  background-image: linear-gradient(red, orange);
+  /* background-color:#40E0D0 ;
+  background-image: linear-gradient(#40E0D0 ,  #8A2BE2); */
 }
 
 #content {
   grid-area: main;
-  background-color: #abd699;
-  background-image: linear-gradient(#abd699, yellow);
+  /* background-color: #8A2BE2;
+  background-image: linear-gradient(#abd699, #8A2BE2); */
 }
 
 #links {
   grid-area: aside;
-  background-color: pink;
+  /* background-color: pink; */
+  /* border: 5px solid black; */
+
+  margin-right: 5px;
 }
 
 #link-items {
   list-style-type: none;
   padding: 0.5em;
+  border: 5px solid black;
 }
 
 #media {

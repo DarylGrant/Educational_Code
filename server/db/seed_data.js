@@ -8,15 +8,15 @@ db.language.insertMany([
     "description": "HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).'Hypertext' refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.",
     "links": [
        {
-           "title": "mdn",
+           "title": "MDN",
            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
        {
-           "title": "wikipedia",
+           "title": "Wikipedia",
            "url" : "https://en.wikipedia.org/wiki/HTML"
         },   
        {
-           "title": "codecademy",
+           "title": "Codecademy",
            "url": "https://www.codecademy.com/learn/learn-html"
         }
     ],
@@ -43,8 +43,17 @@ db.language.insertMany([
     "name": 'Cascading Style Sheets',
     "description": "CSS is used for defining the styles for web pages. It describes the look and formatting of a document which is written in a markup language. It provides an additional feature to HTML. It is generally used with HTML to change the style of web pages and user interfaces.",
     "links": [ 
-        {   "title": "mdn",
+        {   "title": "MDN",
             "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        { 
+            "title": "W3schools",
+            "url": "https://www.w3schools.com/css/default.asp"
+        },
+        { 
+            "title": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/CSS"
+
         }
     ],
     "examples" : "CSS is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.",
@@ -73,14 +82,14 @@ db.language.insertMany([
     "description": "JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well.",
     "links": [
        {
-           "title": "mdn",
+           "title": "MDN",
            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
        {
-            "title": "w3schools",
+            "title": "W3schools",
             "url": "https://www.w3schools.com/js/js_intro.asp"
         },
-       {"title": "wikipedia",
+       {"title": "Wikipedia",
        "url": "https://en.wikipedia.org/wiki/JavaScript"
     },
     ],
