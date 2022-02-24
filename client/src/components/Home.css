@@ -98,7 +98,6 @@ PYRAMID CODE .stage {
   -webkit-perspective-origin: 50% 50%;
   perspective: 1200px;
   perspective-origin: 50% 50%;
-  
 }
 .pyramid3d {
   position: relative;
@@ -113,7 +112,6 @@ PYRAMID CODE .stage {
   animation: turnPyramid 10s linear infinite;
   margin-left: 340px;
   margin-top: 50px;
-  
 }
 .triangle {
   -webkit-transform-style: preserve-3d;
