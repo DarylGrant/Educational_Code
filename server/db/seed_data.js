@@ -11,6 +11,10 @@ db.language.insertMany([
            "title": "MDN",
            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
+        { 
+            "title": "W3schools",
+            "url": "https://www.w3schools.com/html"
+        },
        {
            "title": "Wikipedia",
            "url" : "https://en.wikipedia.org/wiki/HTML"
@@ -53,7 +57,10 @@ db.language.insertMany([
         { 
             "title": "Wikipedia",
             "url": "https://en.wikipedia.org/wiki/CSS"
-
+        },
+        { 
+            "title": "Codecademy",
+            "url": "https://www.codecademy.com/learn/learn-css"
         }
     ],
     "examples" : "CSS is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.",
@@ -89,9 +96,14 @@ db.language.insertMany([
             "title": "W3schools",
             "url": "https://www.w3schools.com/js/js_intro.asp"
         },
-       {"title": "Wikipedia",
-       "url": "https://en.wikipedia.org/wiki/JavaScript"
-    },
+       {
+           "title": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/JavaScript"
+        },
+       {
+           "title": "Codecademy",
+            "url": "https://www.codecademy.com/catalog/language/javascript"
+        },
     ],
     "examples": "JavaScript works with many standard objects, expressions, operators and functions to create web pages and make them interactive. ",
     "video": [
