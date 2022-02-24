@@ -4,11 +4,11 @@
   align-content: center;
   justify-content: center;
   background-color: #fafd64;
+  text-align: center;
 }
 
 div {
   width: 100%;
-  text-align: center;
 }
 
 .number {

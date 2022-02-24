@@ -10,6 +10,7 @@
 
   background-color: #40e0d0;
   background-image: linear-gradient(#40e0d0, #8a2be2);
+  text-align: center;
 }
 
 #heading {
@@ -141,4 +142,8 @@ img {
   .img-list {
     flex-direction: column;
   }
+}
+
+#quiz-body {
+  text-align: left;
 }
