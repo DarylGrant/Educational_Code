@@ -29,6 +29,11 @@
       color: rgba(255,255,255,.85); */
 
   padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  
+ 
   
 
 }
@@ -114,6 +119,11 @@ PYRAMID CODE .stage {
   animation: turnPyramid 10s linear infinite;
   margin-left: 340px;
   margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-self: center;
+ 
   
 }
 .triangle {
