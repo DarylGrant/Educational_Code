@@ -28,7 +28,7 @@ const QuizContainer = () => {
     return <ErrorPage />;
   }
 
-  return <QuizDisplay quiz={quiz} />;
+  return <QuizDisplay quiz={quiz} id="quiz-body" />;
 };
 
 export default QuizContainer;

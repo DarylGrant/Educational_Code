@@ -56,7 +56,35 @@ db.questions.insertMany([
                 title:
                   "What is the correct tag to use when inserting a break to the page?",
                 correctAnswer: "<br>",
-                choices: ["<a></a>", "<br>", "<hr>", "<img>"],
+                choices: ["<break>", "<br>", "<hr>", "<space>"],
+                choicesOrder: "random",
+              },
+            ],
+          },
+          {
+            name: "page5",
+            elements: [
+              {
+                type: "radiogroup",
+                name: "heading",
+                title:
+                  "Choose the correct HTML element for the largest heading:",
+                correctAnswer: "<h1>",
+                choices: ["<head>", "<heading>", "<h1>", "<hlarge>"],
+                choicesOrder: "random",
+              },
+            ]
+          },
+          {
+            name: "page6",
+            elements: [
+              {
+                type: "radiogroup",
+                name: "newtablink",
+                title:
+                  "How can you open a link in a new tab/browser window?",
+                correctAnswer: '<a href="url" target="_blank">',
+                choices: ['<a href="url" target="_blank">', '<a href="url" target="new">', '<a href="url new>'],
                 choicesOrder: "random",
               },
             ],
