@@ -110,6 +110,8 @@ PYRAMID CODE .stage {
   transform: rotateX(75deg) rotate(65deg);
   -webkit-animation: turnPyramid 10s linear infinite;
   animation: turnPyramid 10s linear infinite;
+  margin-left: 340px;
+  margin-top: 50px;
 }
 .triangle {
   -webkit-transform-style: preserve-3d;
