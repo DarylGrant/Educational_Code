@@ -10,7 +10,8 @@
   "scripts": {
     "start": "node server.js",
     "server:dev": "nodemon server.js",
-    "seeds": "mongo < ./db/seed_data.js"
+    "seeds": "mongo < ./db/seed_data.js",
+    "quizseeds": "mongo < ./db/quiz_seed_data.js"
   },
   "name": "server",
   "version": "1.0.0",
