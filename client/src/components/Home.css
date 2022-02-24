@@ -1,20 +1,5 @@
 /* body { */
-  /* background-color: #fafd64;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEyMCc+Cgk8ZGVmcz4KCQk8cGF0dGVybiBwYXR0ZXJuVW5pdHM9J3VzZXJTcGFjZU9uVXNlJyBpZD0nYycgd2lkdGg9JzYwJyBoZWlnaHQ9JzEyMCcgeD0nMCcgeT0nMCcgdmlld0JveD0nMCAwIDUgMTAnPgoJCQk8cGF0aCBmaWxsLW9wYWNpdHk9JzAnIHN0cm9rZT0nIzI5MjkyOScgc3Ryb2tlLXdpZHRoPScwLjA5JyBkPSdNLTIsMUw3LDEwTS0yLDZMNywxNU0tMiwtNEw3LDUnLz4KCQk8L3BhdHRlcm4+CgkJPHBhdHRlcm4gcGF0dGVyblVuaXRzPSd1c2VyU3BhY2VPblVzZScgaWQ9J2MyJyB3aWR0aD0nNjAnIGhlaWdodD0nMTIwJyB4PScxMDAlJyB5PScwJyB2aWV3Qm94PScwIDAgNSAxMCc+CgkJCTxwYXRoIGZpbGwtb3BhY2l0eT0nMCcgc3Ryb2tlPScjMjkyOTI5JyBzdHJva2Utd2lkdGg9JzAuMDknIGQ9J003LDFMLTIsMTBNNyw2TC0yLDE1TTcsLTRMLTIsNScvPgoJCTwvcGF0dGVybj4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPSc1MCUnIGhlaWdodD0nMTAwJScgZmlsbD0ndXJsKCNjKScvPgoJPHJlY3QgeD0nNTAlJyB3aWR0aD0nNTAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjYzIpJy8+Cjwvc3ZnPg==");
-
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  height: 100%;
-  font-family: "Lato", Helvetica, arial, sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 1.45;
-  /* color: #eee;
-      color: rgba(255,255,255,.85); */ 
-/* } */
-#container {
-  background-color: #fafd64;
+/* background-color: #fafd64;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEyMCc+Cgk8ZGVmcz4KCQk8cGF0dGVybiBwYXR0ZXJuVW5pdHM9J3VzZXJTcGFjZU9uVXNlJyBpZD0nYycgd2lkdGg9JzYwJyBoZWlnaHQ9JzEyMCcgeD0nMCcgeT0nMCcgdmlld0JveD0nMCAwIDUgMTAnPgoJCQk8cGF0aCBmaWxsLW9wYWNpdHk9JzAnIHN0cm9rZT0nIzI5MjkyOScgc3Ryb2tlLXdpZHRoPScwLjA5JyBkPSdNLTIsMUw3LDEwTS0yLDZMNywxNU0tMiwtNEw3LDUnLz4KCQk8L3BhdHRlcm4+CgkJPHBhdHRlcm4gcGF0dGVyblVuaXRzPSd1c2VyU3BhY2VPblVzZScgaWQ9J2MyJyB3aWR0aD0nNjAnIGhlaWdodD0nMTIwJyB4PScxMDAlJyB5PScwJyB2aWV3Qm94PScwIDAgNSAxMCc+CgkJCTxwYXRoIGZpbGwtb3BhY2l0eT0nMCcgc3Ryb2tlPScjMjkyOTI5JyBzdHJva2Utd2lkdGg9JzAuMDknIGQ9J003LDFMLTIsMTBNNyw2TC0yLDE1TTcsLTRMLTIsNScvPgoJCTwvcGF0dGVybj4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPSc1MCUnIGhlaWdodD0nMTAwJScgZmlsbD0ndXJsKCNjKScvPgoJPHJlY3QgeD0nNTAlJyB3aWR0aD0nNTAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjYzIpJy8+Cjwvc3ZnPg==");
 
   margin: 0;
@@ -27,22 +12,32 @@
   line-height: 1.45;
   /* color: #eee;
       color: rgba(255,255,255,.85); */
+/* } */
+#container {
+  background-color: #fafd64;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEyMCc+Cgk8ZGVmcz4KCQk8cGF0dGVybiBwYXR0ZXJuVW5pdHM9J3VzZXJTcGFjZU9uVXNlJyBpZD0nYycgd2lkdGg9JzYwJyBoZWlnaHQ9JzEyMCcgeD0nMCcgeT0nMCcgdmlld0JveD0nMCAwIDUgMTAnPgoJCQk8cGF0aCBmaWxsLW9wYWNpdHk9JzAnIHN0cm9rZT0nIzI5MjkyOScgc3Ryb2tlLXdpZHRoPScwLjA5JyBkPSdNLTIsMUw3LDEwTS0yLDZMNywxNU0tMiwtNEw3LDUnLz4KCQk8L3BhdHRlcm4+CgkJPHBhdHRlcm4gcGF0dGVyblVuaXRzPSd1c2VyU3BhY2VPblVzZScgaWQ9J2MyJyB3aWR0aD0nNjAnIGhlaWdodD0nMTIwJyB4PScxMDAlJyB5PScwJyB2aWV3Qm94PScwIDAgNSAxMCc+CgkJCTxwYXRoIGZpbGwtb3BhY2l0eT0nMCcgc3Ryb2tlPScjMjkyOTI5JyBzdHJva2Utd2lkdGg9JzAuMDknIGQ9J003LDFMLTIsMTBNNyw2TC0yLDE1TTcsLTRMLTIsNScvPgoJCTwvcGF0dGVybj4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPSc1MCUnIGhlaWdodD0nMTAwJScgZmlsbD0ndXJsKCNjKScvPgoJPHJlY3QgeD0nNTAlJyB3aWR0aD0nNTAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjYzIpJy8+Cjwvc3ZnPg==");
+
+  margin-right: 0;
+  padding-right: 0;
+  overflow-x: hidden;
+  height: 100%;
+  font-family: "Lato", Helvetica, arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.45;
+  /* color: #eee;
+      color: rgba(255,255,255,.85); */
 
   padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  
- 
-  
+
 
 }
 #error-content {
   max-width: 43em;
   padding: 10px;
   margin: 0 auto;
-  background-color:#40E0D0 ;
-  background-image: linear-gradient(#40E0D0 ,  #8A2BE2);
+  background-color: #40e0d0;
+  background-image: linear-gradient(#40e0d0, #8a2be2);
 }
 h1 {
   font-size: 4em;
@@ -50,7 +45,7 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   /* margin: 0; */
-} 
+}
 h3 {
   font-size: 1em;
 
@@ -81,6 +76,7 @@ ul {
   clear: both;
   list-style: none;
   font-weight: bold;
+  padding-right: 20px;
 }
 
 html {
@@ -104,7 +100,6 @@ PYRAMID CODE .stage {
   -webkit-perspective-origin: 50% 50%;
   perspective: 1200px;
   perspective-origin: 50% 50%;
-  
 }
 .pyramid3d {
   position: relative;
@@ -120,11 +115,6 @@ PYRAMID CODE .stage {
   margin-left: 340px;
   margin-top: 50px;
 
-  display: flex;
-  justify-content: center;
-  align-self: center;
- 
-  
 }
 .triangle {
   -webkit-transform-style: preserve-3d;
@@ -195,7 +185,7 @@ PYRAMID CODE .stage {
 @media (max-width: 440px) {
   h1 {
     line-height: 55px;
-    font-size: 200%;
+    font-size: 170%;
   }
 }
 @media (max-width: 460px) {
