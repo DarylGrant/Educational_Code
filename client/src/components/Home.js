@@ -3,12 +3,12 @@ import "./Home.css";
 const Home = () => {
   return <>
   <div id="container">
-  <div id="content">
+  <div id="error-content">
     <div id="about">
-      <h1>
-        <div>
+      <div>
+        <h1 id= "home-h1">
           Web Development
-        </div>
+        </h1>
         <div class="stage">
           <div class="pyramid3d">
             <div class="triangle side1"></div>
@@ -17,7 +17,8 @@ const Home = () => {
             <div class="triangle side4"></div>
           </div>
         </div> 
-      </h1>
+      </div>
+      <div id="home-content">
       <h3>
       Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.
       </h3>
@@ -35,6 +36,7 @@ const Home = () => {
 
     </div>
   </div>
+</div>
 </div>
           </>
 };

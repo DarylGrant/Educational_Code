@@ -74,7 +74,7 @@ db.questions.insertMany([
     {
         quizName:"CSSBasics",
         title: "CSS Basics",
-        description: "This quiz will test your knowledge on the basics of html.",
+        description: "This quiz will test your knowledge on the basics of css.",
         completedHtml:
           "<div><h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4></div> <br> <button onclick=window.location.href='/test/cssbasics'>Have another go</button> <br> <div><h4>Please select a new topic or quiz from the navigation bar at the top.</h4></div>",
         pages: [
@@ -192,5 +192,126 @@ db.questions.insertMany([
           "maxTimeToFinishPage": 60,
           "showTimerPanel": "top",
           "widthMode": "responsive"
-         }
+         },
+    {
+        quizName:"JSBasics",
+        title: "JS Basics",
+        description: "This quiz will test your knowledge on the basics of javascript.",
+        completedHtml:
+          "<div><h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4></div> <br> <button onclick=window.location.href='/test/jsbasics'>Have another go</button> <br> <div><h4>Please select a new topic or quiz from the navigation bar at the top.</h4></div>",
+          "pages": [
+            {
+             "name": "page1",
+             "elements": [
+              {
+               "type": "html",
+               "name": "startpage",
+               "html": "You are about to start quiz about javascript. <br/>You have 60 seconds for every page and 5 minutes for the whole quiz of 5 questions.<br/>Please click on <b>'Start Quiz'</b> button when you are ready."
+              }
+             ]
+            },
+            {
+             "name": "page2",
+             "elements": [
+              {
+               "type": "radiogroup",
+               "name": "jshtml",
+               "title": "Inside which HTML element do we put the JavaScript?",
+               "correctAnswer": "<script>",
+               "choices": [
+                "<script>",
+                "<style>",
+                "<javascript>",
+                "<js>"
+               ],
+               "choicesOrder": "random"
+              }
+             ]
+            },
+            {
+             "name": "page3",
+             "elements": [
+              {
+               "type": "radiogroup",
+               "name": "function",
+               "title": "How do you create a function in javascript?",
+               "correctAnswer": "function myFunction()",
+               "choices": [
+                "function = myFunction()",
+                "function myFunction()",
+                "function: myFunction()"
+               ],
+               "choicesOrder": "random"
+              }
+             ]
+            },
+            {
+             "name": "page4",
+             "elements": [
+              {
+               "type": "radiogroup",
+               "name": "ifstatement",
+               "title": "How do you write an IF statement in javascript?",
+               "correctAnswer": "if (i == 5)",
+               "choices": [
+                "if i = 5",
+                "if i == 5 then",
+                "if i = 5 then",
+                "if (i == 5)"
+               ],
+               "choicesOrder": "random"
+              }
+             ],
+             "maxTimeToFinish": 15
+            },
+            {
+             "name": "page5",
+             "elements": [
+              {
+               "type": "radiogroup",
+               "name": "commentjs",
+               "title": "Which one of these is a way to write a comment in a javascript file?",
+               "correctAnswer": "//this is a comment",
+               "choices": [
+                "//this is a comment",
+                "<!--this is a comment-->",
+                "'this is a comment"
+               ],
+               "choicesOrder": "random"
+              }
+             ]
+            },
+            {
+             "name": "page6",
+             "elements": [
+              {
+               "type": "radiogroup",
+               "name": "question1",
+               "title": "What is the correct way to write a javascript array?",
+               "correctAnswer": "let colors = [\"red\", \"green\", \"blue]",
+               "choices": [
+                "let colors = [\"red\", \"green\", \"blue]",
+                "let colors = (\"red\", \"green\", \"blue)",
+                "let colors = \"red\", \"green\", \"blue",
+                "let colors = <\"red\", \"green\", \"blue>"
+               ],
+               "choicesOrder": "random"
+              }
+             ]
+            }
+           ],
+           "showProgressBar": "bottom",
+           "startSurveyText": "Start Quiz",
+           "firstPageIsStarted": true,
+           "maxTimeToFinish": 300,
+           "maxTimeToFinishPage": 60,
+           "showTimerPanel": "top",
+           "widthMode": "responsive"
+          }
     ]);
+
+
+
+
+    
+      

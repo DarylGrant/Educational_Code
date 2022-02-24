@@ -38,6 +38,7 @@ const AppNavbar = () => {
                 Ask a Question
               </NavDropdown.Item>
             </NavDropdown>
+            <NavDropdown title="JavaScript" id="js-nav-dropdown">
             <NavDropdown title="Javascript" id="js-nav-dropdown">
               <NavDropdown.Item href="/info/js">Description</NavDropdown.Item>
               <NavDropdown.Divider />

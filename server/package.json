@@ -9,8 +9,10 @@
   },
   "scripts": {
     "start": "node server.js",
-    "server:dev": "nodemon server.js",
-    "seeds": "mongo < ./db/seed_data.js"
+    "server:dev": "npm run seeds && nodemon server.js",
+    "seeds": "npm run seed && npm run quizseeds",
+    "seed": "mongo < ./db/seed_data.js",
+    "quizseeds": "mongo < ./db/quiz_seed_data.js"
   },
   "name": "server",
   "version": "1.0.0",
