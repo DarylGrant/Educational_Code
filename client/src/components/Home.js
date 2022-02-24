@@ -3,7 +3,7 @@ import "./Home.css";
 const Home = () => {
   return <>
   <div id="container">
-  <div id="content">
+  <div id="error-content">
     <div id="about">
       <h1>
         <div>

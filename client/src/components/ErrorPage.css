@@ -1,4 +1,4 @@
-body {
+.error-page-container {
   display: flex;
   flex-flow: row wrap;
   align-content: center;
