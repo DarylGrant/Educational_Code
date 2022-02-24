@@ -2,7 +2,7 @@ import "./ErrorPage.css";
 
 const ErrorPage = () => {
   return (
-    <>
+    <div class="error-page-container">
       <div class="number">404</div>
       <div class="text">
         <h2>Ooops...</h2>
@@ -13,7 +13,7 @@ const ErrorPage = () => {
         href="https://codepen.io/uzcho_/pens/popular/?grid_type=list"
         target="_blank"
       ></a>
-    </>
+    </div>
   );
 };
 
